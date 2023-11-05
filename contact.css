@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --1-seno: #11151c;
+    --2-seno: #ff0000;
+    --3-seno: #FFFFFA;
+    --4-seno: #ff312eaf;
+    --5-seno: #212d40;
+    --6-seno: #40515D;
+}
+
+
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--6-seno);
+    position: relative;
+
+}
+.content{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+h1{
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    margin-top: 10px;
+    color: var(--2-seno);
+}
+
+ul li{
+    list-style: none;
+    font-size: 30px;
+    margin: 20px;
+    color: var(--3-seno);
+}
+
+
+
+.send-message{
+    font-family: cursive;
+height: 300px;
+width: 300px;
+background: var(--6-seno);
+/* border-radius: 10px; */
+box-shadow: 0px 5px 20px var(--1-seno);
+/* text-align: center; */
+
+}
+
+.send-message h2{
+margin-bottom: 20px;
+margin-top: 10px;
+font-size: 30px;
+margin-left: 10px;
+color: rgba(219, 36, 36, 0.753);
+}
+form{
+    margin-left: 10px;
+    
+}
+
+input{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-left: 70px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+button:hover{
+    color: blue;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: .4s ease;
+}
+.logo{
+    position: absolute;
+    top:25px;
+    left:0 ;
+    font-size: 30px;
+    color: var(--2-seno);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: cursive;
+    margin-left: 20px;
+    font-size: 17px;
+}
